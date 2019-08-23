@@ -1,5 +1,14 @@
 package com.bitcamp.services;
 
-public class SubjectService {
+import com.bitcamp.domains.SubjectBean;
 
+public class SubjectService {
+	private SubjectBean[] subjects;
+	private int count;
+	
+	public SubjectService() {
+		subjects = new SubjectBean[10];
+		count = 0;
+	}
+	
 }
